@@ -1,0 +1,44 @@
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: design-system
+abstract: "design-system provides Caltech Library&#x27;s branded web components, for use on Caltech Library sites and applications.
+
+The following are the components currently provided.
+
+&#x60;footer-global&#x60;
+: This component provides a standard footer with detailed information about the library
+
+&#x60;footer-global-lite&#x60;
+: This component provides a lighter weight version of the &#x60;footer-global&#x60; component
+
+&#x60;card-layout&#x60;
+: This component provides a three-card layout for displaying featured content with images, titles, descriptions, and links.
+
+Generic, unbranded components are in [CL-web-components](https://github.com/caltechlibrary/CL-web-components)."
+authors:
+  - family-names: Smith
+    given-names: Twila
+    orcid: https://orcid.org/0009-0003-7975-1922
+    email: twila@caltech.edu
+
+contacts:
+  - family-names: Smith
+    given-names: Twila
+    orcid: https://orcid.org/0009-0003-7975-1922
+    email: twila@caltech.edu
+
+repository-code: "https://github.com/caltechlibrary/design-system"
+version: 0.0.0
+date-released: 2026-10-15
+
+license-url: "https://software.library.caltech.edu/design-system/LICENSE"
+keywords:
+  - HTML
+  - CSS
+  - JavaScript
+  - ES6
+  - Web Components
+  - Design System
+

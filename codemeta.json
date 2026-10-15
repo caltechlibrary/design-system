@@ -1,0 +1,62 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "type": "SoftwareSourceCode",
+  "codeRepository": "https://github.com/caltechlibrary/design-system",
+  "author": [
+    {
+      "id": "https://orcid.org/0009-0003-7975-1922",
+      "type": "Person",
+      "givenName": "Twila",
+      "familyName": "Smith",
+      "email": "twila@caltech.edu"
+    }
+  ],
+  "maintainer": [
+    {
+      "id": "https://orcid.org/0009-0003-7975-1922",
+      "type": "Person",
+      "givenName": "Twila",
+      "familyName": "Smith",
+      "email": "twila@caltech.edu"
+    }
+  ],
+  "dateCreated": "2026-10-15",
+  "dateModified": "2026-10-15",
+  "datePublished": "2026-10-15",
+  "description": "design-system provides Caltech Library's branded web components, for use on Caltech Library sites and applications.\n\nThe following are the components currently provided.\n\n`footer-global`\n: This component provides a standard footer with detailed information about the library\n\n`footer-global-lite`\n: This component provides a lighter weight version of the `footer-global` component\n\n`card-layout`\n: This component provides a three-card layout for displaying featured content with images, titles, descriptions, and links.\n\nGeneric, unbranded components are in [CL-web-components](https://github.com/caltechlibrary/CL-web-components).",
+  "funder": [
+    "Caltech Library"
+  ],
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ES6",
+    "Web Components",
+    "Design System"
+  ],
+  "name": "design-system",
+  "license": "https://software.library.caltech.edu/design-system/LICENSE",
+  "programmingLanguage": [
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "relatedLink": [
+    "https://github.com/caltechlibrary/CL-web-components"
+  ],
+  "runtimePlatform": "HTML5-compatible web browser",
+  "softwareRequirements": [
+    "Deno >= 2.7 (for bundling dependencies)"
+  ],
+  "softwareSuggestions": [
+    "CMTools >= 0.0.43",
+    "Pandoc >= 3.9"
+  ],
+  "version": "0.0.0",
+  "developmentStatus": "wip",
+  "issueTracker": "https://github.com/caltechlibrary/design-system/issues",
+  "downloadUrl": "https://github.com/caltechlibrary/design-system/releases",
+  "copyrightYear": 2026,
+  "copyrightHolder": "California Institute of Technology"
+}
