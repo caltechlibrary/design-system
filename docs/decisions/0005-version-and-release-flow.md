@@ -53,7 +53,7 @@ more choices in the Release workflow, and a URL change on every staging site
 for every beta. Option 5 gets the same protection for key sites with none of
 that.
 
-### Option 5: frozen minor versions for key sites — chosen
+### Option 4: frozen minor versions for key sites — chosen
 
 Sites are grouped:
 
