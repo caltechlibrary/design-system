@@ -13,7 +13,7 @@
   "tasks": {
     "bump": "deno run --allow-read --allow-write tools/bump-version.js",
     "generate-version": "deno run --allow-read --allow-write --allow-run tools/generate-version.js",
-    "build": "deno task generate-version && deno bundle --platform browser --outdir=./dist src/*.js ; deno bundle --platform browser --output=dist/design-system.js mod.js",
+    "build": "deno task generate-version && deno bundle --platform browser --outdir=./dist src/*.js ; deno bundle --platform browser --output=dist/design-system.js mod.js && cp src/tokens.css dist/tokens.css",
     "package": "deno task build && deno run --allow-read --allow-write --allow-run tools/package.js"
   },
   "imports": {

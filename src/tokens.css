@@ -1,0 +1,31 @@
+/*
+ * Caltech Library design tokens.
+ *
+ * Brand palette: the named colors from libguine's scss/common/_colors.scss,
+ * keeping their Sass names without a prefix. Role tokens (for example, alert
+ * text) will be added in a second layer with a --cl- prefix, drawing on these.
+ * The prefix is what tells the two layers apart.
+ *
+ * :root applies when a site loads this file with <link>; :host applies when a
+ * web component loads it inside its shadow DOM.
+ */
+
+:root,
+:host {
+  --tarawera: #062e47;
+  --jungle: #19747d;
+
+  --sherpa: #005851;
+  --bazaar: #7b5f5d;
+
+  --mulled: #644b78;
+  --chelsea: #4d7b2f;
+
+  --hibiscus: #a02276;
+  --jumbo: #727479;
+
+  --burnt: #c75000;
+  --granny: #617572;
+
+  --monza: #cf0a2c;
+}
